@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>User registration form for a competetive exam</title>
+    <link rel="stylesheet" type="text/css" href="registration_form.css">
+</head>
+<body>
+    <form name="f1">
+        First name: <input type="text" id="firstname"><br>
+        Last name: <input type="text" id="lastname"><br>
+        Father's name: <input type="text" id="fathername"><br>
+        Mother's name: <input type="text" id="mothername"><br>
+        E-mail: <input type="email" id="email"><br>
+        Phone number: <input type="number" id="pno"><br>
+        Date of Birth: <input type="date" id="dob"><br>
+        Gender: 
+        <select  id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br>
+        Highest Education Qualification:
+        <select id="qualification">
+            <option value="Post Graduation">Post Graduation</option>
+            <option value="Graduation">Graduation</option>
+            <option value="Under Graduation">Under Graduation</option>
+        </select><br>
+        Qualification type: <input type="text" id="qualitype"><br>
+        Upload passport size photo: <input type="file" accept="image/*"  id="passpic"><br>
+        Upload signature: <input type="file" accept="image/*" id="sign"><br>
+        <input type="button" value="Submit" onclick="get_info();">
+        <input type="reset" value="Reset">
+    </form>
+    <script src="registration_form.js"></script>
+</body>
+</html>
